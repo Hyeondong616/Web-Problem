@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web problem!</title>
+</head>
+<body>
+	<h3>Hello!</h3>
+	<br>Welcome to Web problem!</body>
+	<script>
+		var aa = new Array('0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j');
+
+		function HELLO(n) {
+			var web = '';
+			var problem = true;
+			for (var i = 40; i>0;) {
+				i -= 5;
+				var qwer = ~(n ^ i) & 0xf;
+				if(!problem || qwer != 0) {
+					problem = false;
+					web += aa[qwer]
+				}				
+			}
+			return (web == '' ? '0' : web)
+		}
+	</script>
+
+	<script>
+		function HAHA(number) {
+			var result_sum = 0;
+			var result_mul = 1;
+			var result_all_sum = 0;
+
+			for (var i = 0; i < 10000; i += 2) {
+				result_sum += i;
+			}
+
+			for (var j = 1; j <= number; j += 1) {
+				result_mul *= j; 
+			}
+
+			result_all_sum = result_sum + result_mul;
+			return result_all_sum
+		} 
+	</script>
+	<!-- First Code -->
+	<!-- NUmber Hint : 15 -->
+	<!-- Flag 값 : 첫번쨰 함수 값 + 두번쨰 함수 값 -->
+</html>
