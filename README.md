@@ -10,7 +10,7 @@
 	첫번쨰 함수는 아래의 파일을 참고하세요.<br>
 	<h2>HINT</h2>
 	문제의 flag 값은 'iKeeper' + 첫번쨰 함수의 계산 결과와 두번째 함수의 계산 결과를 이어 붙이는 것이 flag 값입니다.<br>
-	(단, 첫번쨰 함수의 계산 값은 html 파일을 하나 새로 생성하셔서 코드를 입력하여야 값을 얻을 수 있습니다.)<hr>
+	(소스의 힌트를 참고하셔서 진행해 주시면 되겠습니다.)<hr>
 	<a href="javascript_view.txt">Javascript source</a>
 </body>
 	<script>
