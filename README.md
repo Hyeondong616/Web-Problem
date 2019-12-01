@@ -6,12 +6,14 @@
 </head>
 <body>
 	<h1>Hello! Welcome to web problem!</h1>
-	자바스크립트로 짜여진 두개의 함수가 있습니다.<br>
-	(첫번쨰 함수는 아래의 파일을 참고하세요.)<br>
-	<h2>HINT</h2>
-	문제의 flag 값은 'iKeeper{flag 값}' 입니다.<br>
-	flag는 '첫번쨰 함수 계산 값 + 두번째 함수 계산 값' 입니다.<br>
-	(소스의 힌트를 참고하셔서 진행해 주시면 되겠습니다.)<hr>
+	함수를 통해 플래그 값을 얻고 싶지만 함수를 알아볼 수 없네요.<br>
+	함수를 풀어서 플래그 값을 얻으세요!<br>
+	Key : iKeeper{flag 값}<br>
+	<h2>HINT 및 유의점</h2>
+	두개의 함수가 존재하는데 첫번째 함수는 아래의 소스 보기를 참고하세요.<br>
+	flag 값은 '첫번쨰 함수 계산 값 + 두번째 함수 계산 값' 입니다.<br>
+	(단, 각각의 함수의 계산 값은 소스의 Hint를 참고하셔서 진행하시면 됩니다.)
+	<hr>
 	<a href="javascript_view.txt">Javascript source</a>
 </body>
 	<script>
