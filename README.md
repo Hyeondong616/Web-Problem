@@ -10,7 +10,7 @@
 	(첫번쨰 함수는 아래의 파일을 참고하세요.)<br>
 	<h2>HINT</h2>
 	문제의 flag 값은 'iKeeper{flag 값}' 입니다.<br>
-	flag는 '첫번쨰 함수 계산 값(문자열) + 두번째 함수 계산 값(문자열)' 입니다.<br>
+	flag는 '첫번쨰 함수 계산 값 + 두번째 함수 계산 값' 입니다.<br>
 	(소스의 힌트를 참고하셔서 진행해 주시면 되겠습니다.)<hr>
 	<a href="javascript_view.txt">Javascript source</a>
 </body>
